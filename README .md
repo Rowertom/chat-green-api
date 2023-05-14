@@ -12,9 +12,13 @@ open terminal VSC (for example) and use:
  
 then: 
 	 
-	`npm start` or `npm run start`
+	`npm start` 
+
+	or
+	 
+	`npm run start`
 	
-##get authorization
+## get authorization
 
 For using this aplication you must to get authorization on [GREEN API](https://green-api.com/docs/before-start/#cabinet)
 
@@ -22,9 +26,9 @@ After it you will get `instance` and `token`
 Set it in auth page of aplication and use chat
 
 
-##P.S. 
+## P.S. 
 Also you can to use it without clone 
-for it use [CHAT-GRENN-API](https://chat-green-api.netlify.app)
+for it use [CHAT-GREEN-API](https://chat-green-api.netlify.app)
 
 Watch short video about using aplication, you can load it from [LOAD](https://drive.google.com/file/d/1n0q37kb_MxdOCQ9ayiAC2uZaHb5je1La/view?usp=sharing)
 
