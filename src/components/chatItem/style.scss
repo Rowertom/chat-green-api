@@ -1,0 +1,15 @@
+.chat__number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-radius: 10px;
+    background-color: rgb(173, 173, 250);
+    color: whitesmoke;
+
+    &:hover {
+        box-shadow: 3px 3px 8px whitesmoke;
+    }
+}

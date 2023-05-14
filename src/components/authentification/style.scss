@@ -1,0 +1,62 @@
+.auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 80px);
+    background-color: whitesmoke;
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        width: 600px;
+        height: 500px;
+        background-color: rgb(197, 197, 253);
+        border-radius: 20px;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+
+        &__label {
+            font-size: 1.5rem;
+            color: whitesmoke
+        }
+
+        &__content {
+            width: 400px;
+            padding: 10px;
+            border-radius: 10px;
+            border: 0.5px solid whitesmoke;
+            background-color: rgb(218, 218, 250);
+            color: grey;
+            font-size: 1rem;
+            cursor: pointer;
+
+            &:focus {
+                outline: none;
+                box-shadow: 5px 5px 10px whitesmoke;
+            }
+        }
+
+        &__btn {
+            width: 300px;
+            padding: 15px 10px;
+            font-size: 1rem;
+            color: grey;
+            border: 0.5px solid whitesmoke;
+            background-color: rgb(218, 218, 250);
+            border-radius: 10px;
+            cursor: pointer;
+
+            &:hover {
+                box-shadow: 5px 5px 10px whitesmoke;
+                background-color: rgb(197, 197, 253);
+            }
+        }
+    }
+
+    &__warning {
+        font-size: 1rem;
+        color: red;
+    }
+}

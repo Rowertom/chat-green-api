@@ -1,0 +1,42 @@
+.message{
+    min-width: 450px;
+    max-width: 800px;
+    padding: 10px;
+    border: 2px solid blue;
+    border-radius: 20px;
+    margin: 20px;
+    
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 0.5px solid whitesmoke;
+        color: whitesmoke;
+
+        &__date{
+            font-size: 14px;
+            color: grey;
+        }
+
+        &__user{
+            font-size: 10px;
+            color: darkcyan;
+        }
+    }
+
+    &__content{
+        font-size: 1rem;
+        color: whitesmoke;
+        overflow-wrap:break-word;
+    }
+}
+
+.dark{
+    background-color: rgb(173, 173, 250);
+    right: 80px;
+    margin-left: 450px;
+}
+
+.light{
+    background-color: rgb(211, 211, 248);
+}
